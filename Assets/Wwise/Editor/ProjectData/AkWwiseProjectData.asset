@@ -80,8 +80,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0d2766269cc8f545998e9b8ca27d4163
     GuidInternal: 
-    m_lastTime: -8585830085861397308
-    List: []
+    m_lastTime: -8585829989243530082
+    List:
+    - name: GameStart
+      guid: 000690c33537404f9a53263d8d874e58
+      id: 4058101365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: GameStart
+        ObjectType: 3
+        guid: 000690c33537404f9a53263d8d874e58
+      Path: Events\Default Work Unit\GameStart
+      maxAttenuation: 0
+      maxDuration: 4.061229
+      minDuration: 4.061229
+    - name: Play_MenuMusic
+      guid: 4db812da9cda58419b7abbdf56b70614
+      id: 2570041344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Play_MenuMusic
+        ObjectType: 3
+        guid: 4db812da9cda58419b7abbdf56b70614
+      Path: Events\Default Work Unit\Play_MenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,5 +176,5 @@ MonoBehaviour:
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID GAMESTART = 4058101365U;
         static const AkUniqueID PLAY_MENUMUSIC = 2570041344U;
+        static const AkUniqueID TEXT_RECEIVE = 1590073574U;
+        static const AkUniqueID TEXT_SEND = 1182229445U;
     } // namespace EVENTS
 
     namespace BANKS

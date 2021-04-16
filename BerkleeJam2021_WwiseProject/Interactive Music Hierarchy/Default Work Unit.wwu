@@ -64,7 +64,7 @@
 																		<MusicClip Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{AFF3D799-E6C7-45A1-9AC9-2E20D61027B8}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="25652.6664363399"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="544.661946411219"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{B0951DDD-B043-49D4-9F8F-8104F76C2676}"/>
 																			<PropertyCurveList>
@@ -187,6 +187,40 @@
 									<SegmentRef Name="Distant_Friends_Menu(Idea 1)_75bpm" ID="{2870A412-7177-432D-88EC-73DC1768B340}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="In Game" ID="{6A79D4DB-1590-48F0-8AEB-37090BB06AC0}" ShortID="1014065515">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{8EEE5BA9-99C8-4577-8963-E942252107EA}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C404F369-DF30-470E-A703-301D46FB880C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{334C281A-D1BB-4327-A2B5-D291D4417CF9}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{261EA6DB-5A35-446F-8FDE-184DEA4CC520}" ShortID="513125185">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>

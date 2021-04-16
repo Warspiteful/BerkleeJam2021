@@ -1,8 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1182229445	Text_Send			\Default Work Unit\Text_Send	
+	1590073574	Text_Receive			\Default Work Unit\Text_Receive	
 	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
 	4058101365	GameStart			\Default Work Unit\GameStart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47354812	Outgoing_Text_C	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Windows\SFX\Outgoing_Text_C_4C07E285.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Outgoing_Text_C		177764
 	969410491	UI_GameStart_Ab2	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Windows\SFX\UI_GameStart_Ab2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Menu\UI_GameStart_Ab2		779820
+	975945141	Notif_Text_Incoming	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Windows\SFX\Notif_Text_Incoming_62D143E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Notif_Text_Incoming		104356
 	985246591	Distant_Friends_Menu(Idea 1)_72bpm	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Windows\SFX\Distant_Friends_Menu(Idea 1)_72bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main Menu\Distant_Friends_Menu(Idea 1)_75bpm\Distant_Friends_Menu(Idea 1)_72bpm		14123584
 

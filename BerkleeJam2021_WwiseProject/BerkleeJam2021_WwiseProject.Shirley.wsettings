@@ -3,6 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6D800696-05E9-4ED5-A8B2-FDBFAE1E7088}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Shirley\Music\GameJam Sounds\Text Sounds\"/>
+				<Property Name="Event Action List\{47B5B9FB-9FA5-4142-9836-E62B7FB25AFC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B1897953-8C80-4386-9313-393A8173AC6C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C3900600-3735-4F40-9A53-263D8D874E58}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DA12B84D-DA9C-4158-9B7A-BBDF56B70614}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -26,7 +29,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="ZyQ8oJH+bkm6Acx4VjFZGg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="i24XYQ1HH0e7jvFyPK/v/wHa6NH/////U0xo3qpXW0OTZGxGfhAUCAHa6NH/////"/>
-				<Property Name="Interactive Music\x64_{2870A412-7177-432D-88EC-73DC1768B340} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4QHVko23jdARhdddNFFB0AAAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{2870A412-7177-432D-88EC-73DC1768B340} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPx/K7JUlhjBARhdddNFF/z8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -36,6 +39,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6A79D4DB-1590-48F0-8AEB-37090BB06AC0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FD904AA2-10C5-45D8-A5B4-EB5A76BC54ED}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
@@ -66,7 +71,6 @@
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="NlykVq/eWkOhrjtg4fCoOQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
-				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>

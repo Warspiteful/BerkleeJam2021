@@ -25,6 +25,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Text_Receive" ID="{47B5B9FB-9FA5-4142-9836-E62B7FB25AFC}">
+					<ChildrenList>
+						<Action Name="" ID="{75870D97-FF11-4342-9D19-45B9DC167F59}" ShortID="22296224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Notif_Text_Incoming" ID="{B721034D-3AE6-4836-BB7C-8605D92911FD}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Text_Send" ID="{B1897953-8C80-4386-9313-393A8173AC6C}">
+					<ChildrenList>
+						<Action Name="" ID="{EC6DA456-A284-4DC9-97DB-41BE0DB85311}" ShortID="147618144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outgoing_Text_C" ID="{C1019127-C78C-4EA7-A1F8-997F5D4F1539}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
