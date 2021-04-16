@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GameStart" ID="{C3900600-3735-4F40-9A53-263D8D874E58}">
+					<ChildrenList>
+						<Action Name="" ID="{EB86B3FD-DF0B-4EC9-9B19-C10FD2ABDF73}" ShortID="923445629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_GameStart_Ab2" ID="{DB6FBDCA-93BF-4656-A764-1B701C4CDA75}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuMusic" ID="{DA12B84D-DA9C-4158-9B7A-BBDF56B70614}">
+					<ChildrenList>
+						<Action Name="" ID="{8228A3A1-9EDB-4B61-98F8-05DFC869D314}" ShortID="107727838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu" ID="{FD904AA2-10C5-45D8-A5B4-EB5A76BC54ED}" WorkUnitID="{27586462-C455-457C-B1E9-5DB4733CEA9C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

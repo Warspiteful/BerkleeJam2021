@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B2B2B985-161E-4FB4-AF52-A7F8B67B18FB}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B2B2B985-161E-4FB4-AF52-A7F8B67B18FB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B2B2B985-161E-4FB4-AF52-A7F8B67B18FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{C16CC112-5B78-47AC-9C2F-77EABC35C6B3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Distant_Friends_Menu(Idea 1)_75bpm" ID="{2870A412-7177-432D-88EC-73DC1768B340}" WorkUnitID="{27586462-C455-457C-B1E9-5DB4733CEA9C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_GameStart_Ab2" ID="{DB6FBDCA-93BF-4656-A764-1B701C4CDA75}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
