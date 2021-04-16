@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Main Menu" ID="{7C30940D-C03D-47AE-8AF4-3E054D715F5E}" ShortID="162730774">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_GameStart_Ab2" ID="{DB6FBDCA-93BF-4656-A764-1B701C4CDA75}" ShortID="195564106">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_GameStart_Ab2" ID="{C1958CAA-80A0-4D44-A507-98F371CC5E50}">
+									<Language>SFX</Language>
+									<AudioFile>UI_GameStart_Ab2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="969410491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_GameStart_Ab2" ID="{C1958CAA-80A0-4D44-A507-98F371CC5E50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

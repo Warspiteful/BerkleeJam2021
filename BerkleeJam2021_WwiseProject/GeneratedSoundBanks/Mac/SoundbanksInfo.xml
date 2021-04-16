@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1213253983">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2189658453">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4058101365" Name="GameStart" ObjectPath="\Events\Default Work Unit\GameStart" DurationType="OneShot" DurationMin="4.061229" DurationMax="4.061229">
+					<IncludedMemoryFiles>
+						<File Id="969410491" Language="SFX">
+							<ShortName>UI_GameStart_Ab2.wav</ShortName>
+							<Path>SFX\UI_GameStart_Ab2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2570041344" Name="Play_MenuMusic" ObjectPath="\Events\Default Work Unit\Play_MenuMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="985246591" Language="SFX">
+							<ShortName>Distant_Friends_Menu(Idea 1)_72bpm.wav</ShortName>
+							<Path>SFX\Distant_Friends_Menu(Idea 1)_72bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
