@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3244461897">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3997864230">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="666069888">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2469986190">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -29,6 +29,26 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\Menu_Click" DurationType="OneShot" DurationMin="1.253396" DurationMax="1.376532">
+					<IncludedMemoryFiles>
+						<File Id="427819725" Language="SFX">
+							<ShortName>Mouseclick\mouseclick1.wav</ShortName>
+							<Path>SFX\Mouseclick\mouseclick1_10C4C929.wem</Path>
+						</File>
+						<File Id="846267227" Language="SFX">
+							<ShortName>Mouseclick\mouseclick2.wav</ShortName>
+							<Path>SFX\Mouseclick\mouseclick2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3229127073" Name="Play_GameTrack" ObjectPath="\Events\Default Work Unit\Play_GameTrack" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="730079061" Language="SFX">
+							<ShortName>Ingametheme1_80bpm.wav</ShortName>
+							<Path>SFX\Ingametheme1_80bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2570041344" Name="Play_MenuMusic" ObjectPath="\Events\Default Work Unit\Play_MenuMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="985246591" Language="SFX">
@@ -37,11 +57,56 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="210840004" Name="Player_Typing" ObjectPath="\Events\Default Work Unit\Player_Typing" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="217262562" Language="SFX">
+							<ShortName>Keyboard_Click\type9.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type9_A9CB7C0A.wem</Path>
+						</File>
+						<File Id="291182309" Language="SFX">
+							<ShortName>Keyboard_Click\type2.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type2_AD848B8E.wem</Path>
+						</File>
+						<File Id="388417968" Language="SFX">
+							<ShortName>Keyboard_Click\type4.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type4_40B2B7A0.wem</Path>
+						</File>
+						<File Id="391535517" Language="SFX">
+							<ShortName>Keyboard_Click\type8.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type8_3F175D22.wem</Path>
+						</File>
+						<File Id="430219897" Language="SFX">
+							<ShortName>Keyboard_Click\type10.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type10_021E4380.wem</Path>
+						</File>
+						<File Id="513148320" Language="SFX">
+							<ShortName>Keyboard_Click\type1.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type1_221CF10D.wem</Path>
+						</File>
+						<File Id="534099372" Language="SFX">
+							<ShortName>Keyboard_Click\type5.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type5_D17E4168.wem</Path>
+						</File>
+						<File Id="642473425" Language="SFX">
+							<ShortName>Keyboard_Click\type3.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type3_9EDE04FB.wem</Path>
+						</File>
+						<File Id="686596842" Language="SFX">
+							<ShortName>Keyboard_Click\type6.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type6_F1E25364.wem</Path>
+						</File>
+						<File Id="847541421" Language="SFX">
+							<ShortName>Keyboard_Click\type7.wav</ShortName>
+							<Path>SFX\Keyboard_Click\type7_412F8A48.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2380210979" Name="Player_Typing_Stop" ObjectPath="\Events\Default Work Unit\Player_Typing_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1590073574" Name="Text_Receive" ObjectPath="\Events\Default Work Unit\Text_Receive" DurationType="OneShot" DurationMin="0.543184" DurationMax="0.543184">
 					<IncludedMemoryFiles>
 						<File Id="975945141" Language="SFX">
 							<ShortName>Notif_Text_Incoming.wav</ShortName>
-							<Path>SFX\Notif_Text_Incoming_62D143E8.wem</Path>
+							<Path>SFX\Notif_Text_Incoming_A887E290.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +114,7 @@
 					<IncludedMemoryFiles>
 						<File Id="47354812" Language="SFX">
 							<ShortName>Outgoing_Text_C.wav</ShortName>
-							<Path>SFX\Outgoing_Text_C_4C07E285.wem</Path>
+							<Path>SFX\Outgoing_Text_C_9537E9E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

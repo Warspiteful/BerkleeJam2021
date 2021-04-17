@@ -13,7 +13,7 @@
 						<Bus Name="Music" ID="{8EEE5BA9-99C8-4577-8963-E942252107EA}">
 							<ObjectLists/>
 						</Bus>
-						<Bus Name="SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}">
+						<Bus Name="MainMenu SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}">
 							<PropertyList>
 								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
@@ -22,13 +22,16 @@
 								<DuckItem>
 									<BusRef Name="Music" ID="{8EEE5BA9-99C8-4577-8963-E942252107EA}"/>
 									<DuckingParam>
-										<Volume>-10</Volume>
+										<Volume>-7</Volume>
 										<FadeInTime>0.5</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>
 								</DuckItem>
 							</DuckingList>
+						</Bus>
+						<Bus Name="In Game SFX" ID="{366FFD30-E2DE-4E30-8474-E7343CEB14D2}">
+							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>

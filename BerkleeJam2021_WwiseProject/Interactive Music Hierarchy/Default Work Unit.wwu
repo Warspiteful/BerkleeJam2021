@@ -19,6 +19,11 @@
 						<MusicSegment Name="Distant_Friends_Menu(Idea 1)_75bpm" ID="{2870A412-7177-432D-88EC-73DC1768B340}" ShortID="228355917">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="80065.306122449"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -191,6 +196,9 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="In Game" ID="{6A79D4DB-1590-48F0-8AEB-37090BB06AC0}" ShortID="1014065515">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="80"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
@@ -199,6 +207,96 @@
 							<ObjectRef Name="Music" ID="{8EEE5BA9-99C8-4577-8963-E942252107EA}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Ingametheme1_80bpm" ID="{240F3DC6-D27B-4399-AF6A-17291EC22F73}" ShortID="475193542">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="48000"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ingametheme1_80bpm" ID="{3B6A69AB-4FE7-4C80-A296-6F0CEB3B4396}" ShortID="530856398">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ingametheme1_80bpm" ID="{D449CA54-7619-4A7F-A72F-197B6E41D648}">
+											<Language>SFX</Language>
+											<AudioFile>Ingametheme1_80bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="730079061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A027B4C0-447C-46B3-912F-938F41DE64B5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DEE2AB5A-BD07-4721-8E46-AE2EBD3CBE63}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ingametheme1_80bpm" ID="{370351C0-9A63-4AC0-92DF-DCC015486D4D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="181.405895691605"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ingametheme1_80bpm" ID="{D449CA54-7619-4A7F-A72F-197B6E41D648}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{90C0C124-AF99-4F59-A9D9-4EBDD842D58F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{8F91FDE1-74F3-412C-822C-BC29074248DB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="48000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{C404F369-DF30-470E-A703-301D46FB880C}">
 							<PropertyList>
@@ -221,6 +319,14 @@
 								<Property Name="PlayMode" Type="int16" Value="2"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{DC6F05CE-BA28-4B22-82E2-E241B4E00025}" ShortID="955569384">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Ingametheme1_80bpm" ID="{240F3DC6-D27B-4399-AF6A-17291EC22F73}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>

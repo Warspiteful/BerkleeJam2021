@@ -1,12 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
+	210840004	Player_Typing			\Default Work Unit\Player_Typing	
+	760777789	Menu_Click			\Default Work Unit\Menu_Click	
 	1182229445	Text_Send			\Default Work Unit\Text_Send	
 	1590073574	Text_Receive			\Default Work Unit\Text_Receive	
+	2380210979	Player_Typing_Stop			\Default Work Unit\Player_Typing_Stop	
 	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
+	3229127073	Play_GameTrack			\Default Work Unit\Play_GameTrack	
 	4058101365	GameStart			\Default Work Unit\GameStart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	47354812	Outgoing_Text_C	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Outgoing_Text_C_4C07E285.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Outgoing_Text_C		177764
+	47354812	Outgoing_Text_C	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Outgoing_Text_C_9537E9E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Outgoing_Text_C		177764
+	217262562	type9	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type9_A9CB7C0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type9		30728
+	291182309	type2	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type2_AD848B8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type2		15660
+	388417968	type4	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type4_40B2B7A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type4		17464
+	391535517	type8	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type8_3F175D22.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type8		30272
+	427819725	mouseclick1	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Mouseclick\mouseclick1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Menu\Mouseclick\mouseclick1		241412
+	430219897	type10	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type10_021E4380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type10		27164
+	513148320	type1	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type1_221CF10D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type1		19436
+	534099372	type5	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type5_D17E4168.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type5		26552
+	642473425	type3	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type3_9EDE04FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type3		18784
+	686596842	type6	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type6_F1E25364.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type6		27156
+	730079061	Ingametheme1_80bpm	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Ingametheme1_80bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\In Game\Ingametheme1_80bpm\Ingametheme1_80bpm		8467344
+	846267227	mouseclick2	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Mouseclick\mouseclick2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Menu\Mouseclick\mouseclick2		263596
+	847541421	type7	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Keyboard_Click\type7_412F8A48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Keyboard_Click\type7		26896
 	969410491	UI_GameStart_Ab2	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\UI_GameStart_Ab2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Menu\UI_GameStart_Ab2		779820
-	975945141	Notif_Text_Incoming	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Notif_Text_Incoming_62D143E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Notif_Text_Incoming		104356
+	975945141	Notif_Text_Incoming	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Notif_Text_Incoming_A887E290.wem		\Actor-Mixer Hierarchy\Default Work Unit\Texting Sounds\Notif_Text_Incoming		104356
 	985246591	Distant_Friends_Menu(Idea 1)_72bpm	C:\Users\Shirley\Documents\GitHub\BerkleeJam2021\BerkleeJam2021_WwiseProject\.cache\Mac\SFX\Distant_Friends_Menu(Idea 1)_72bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main Menu\Distant_Friends_Menu(Idea 1)_75bpm\Distant_Friends_Menu(Idea 1)_72bpm		14123584
 

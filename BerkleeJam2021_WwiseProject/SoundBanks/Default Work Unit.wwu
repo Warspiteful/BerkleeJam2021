@@ -5,7 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{A03C2467-FE91-496E-BA01-CC785631591A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Menu_Click" ID="{FFB78E20-BE04-410A-902A-BB93B00016C2}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GameTrack" ID="{2A746487-0A40-4124-BAA5-BCFED7827C7E}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Text_Receive" ID="{47B5B9FB-9FA5-4142-9836-E62B7FB25AFC}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MenuMusic" ID="{DA12B84D-DA9C-4158-9B7A-BBDF56B70614}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Text_Send" ID="{B1897953-8C80-4386-9313-393A8173AC6C}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Typing_Stop" ID="{0B27C738-6A2B-4651-8EF0-126D8C1A0F6D}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Typing" ID="{54E27271-81E8-4A2E-938C-82D704C6B070}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameStart" ID="{C3900600-3735-4F40-9A53-263D8D874E58}" WorkUnitID="{2666270D-C89C-45F5-998E-9B8CA27D4163}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

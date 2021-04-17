@@ -47,6 +47,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Menu_Click" ID="{FFB78E20-BE04-410A-902A-BB93B00016C2}">
+					<ChildrenList>
+						<Action Name="" ID="{FCBE175F-D46D-497F-B5F1-7A4709727505}" ShortID="208434478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mouseclick" ID="{D7EC0E12-1354-46D7-A878-236BA6B43166}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Typing" ID="{54E27271-81E8-4A2E-938C-82D704C6B070}">
+					<ChildrenList>
+						<Action Name="" ID="{13FDEBEC-F1BC-4248-954C-FC8A9AEEBAC7}" ShortID="458987190">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Keyboard_Click" ID="{3332CCAC-0C97-495F-8E3C-C8781328FCD7}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Typing_Stop" ID="{0B27C738-6A2B-4651-8EF0-126D8C1A0F6D}">
+					<ChildrenList>
+						<Action Name="" ID="{1E391DCE-BFDD-463B-9FE6-20D33A490241}" ShortID="575934448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Keyboard_Click" ID="{3332CCAC-0C97-495F-8E3C-C8781328FCD7}" WorkUnitID="{56131EAC-C555-483A-A2A5-E72CFCD8F223}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameTrack" ID="{2A746487-0A40-4124-BAA5-BCFED7827C7E}">
+					<ChildrenList>
+						<Action Name="" ID="{1A10DC9D-CFBA-4E25-A8AC-0F9AE65EAFAB}" ShortID="347376847">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In Game" ID="{6A79D4DB-1590-48F0-8AEB-37090BB06AC0}" WorkUnitID="{27586462-C455-457C-B1E9-5DB4733CEA9C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

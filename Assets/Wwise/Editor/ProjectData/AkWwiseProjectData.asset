@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 365ca456afde5a43a1ae3b60e1f0a839
     GuidInternal: 
-    m_lastTime: -8585830085848766585
-    List: []
+    m_lastTime: -8585829974638573968
+    List:
+    - name: Main
+      guid: 67243ca091fe6e49ba01cc785631591a
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 365ca456afde5a43a1ae3b60e1f0a839
+      - ElementName: Main
+        ObjectType: 7
+        guid: 67243ca091fe6e49ba01cc785631591a
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0d2766269cc8f545998e9b8ca27d4163
     GuidInternal: 
-    m_lastTime: -8585829989243530082
+    m_lastTime: -8585829976792786938
     List:
     - name: GameStart
       guid: 000690c33537404f9a53263d8d874e58
@@ -116,6 +130,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Text_Receive
+      guid: fbb9b547a59f42419836e62b7fb25afc
+      id: 1590073574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Text_Receive
+        ObjectType: 3
+        guid: fbb9b547a59f42419836e62b7fb25afc
+      Path: Events\Default Work Unit\Text_Receive
+      maxAttenuation: 0
+      maxDuration: 0.543184
+      minDuration: 0.543184
+    - name: Text_Send
+      guid: 537989b1808c86439313393a8173ac6c
+      id: 1182229445
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Text_Send
+        ObjectType: 3
+        guid: 537989b1808c86439313393a8173ac6c
+      Path: Events\Default Work Unit\Text_Send
+      maxAttenuation: 0
+      maxDuration: 0.925516
+      minDuration: 0.925516
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -172,7 +220,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585830085842866248
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 0200000003000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

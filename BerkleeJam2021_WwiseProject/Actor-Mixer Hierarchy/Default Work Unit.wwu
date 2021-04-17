@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+							<ObjectRef Name="MainMenu SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -47,6 +47,81 @@
 								<ActiveSource Name="UI_GameStart_Ab2" ID="{C1958CAA-80A0-4D44-A507-98F371CC5E50}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Mouseclick" ID="{D7EC0E12-1354-46D7-A878-236BA6B43166}" ShortID="69217407">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C14CF745-A90B-4373-ABD3-33A57D102836}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="mouseclick1" ID="{519F1A17-8400-4E29-A818-9150AC70AB24}" ShortID="566030772">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mouseclick1" ID="{88938292-DD4F-4965-AC39-CC0C5D38B6D6}">
+											<Language>SFX</Language>
+											<AudioFile>Mouseclick\mouseclick1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427819725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="mouseclick1" ID="{88938292-DD4F-4965-AC39-CC0C5D38B6D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mouseclick2" ID="{8F57E132-DA88-4083-B674-703EF5EC5649}" ShortID="254127538">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mouseclick2" ID="{DF4F1E78-E740-4051-9158-EE31EF92EFBD}">
+											<Language>SFX</Language>
+											<AudioFile>Mouseclick\mouseclick2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846267227"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="mouseclick2" ID="{DF4F1E78-E740-4051-9158-EE31EF92EFBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -60,7 +135,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{BA3579AA-B060-49A6-8459-6A49B1A15A43}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+							<ObjectRef Name="In Game SFX" ID="{366FFD30-E2DE-4E30-8474-E7343CEB14D2}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -127,6 +202,312 @@
 								<ActiveSource Name="Outgoing_Text_C" ID="{1A215351-81DF-4A0D-B79A-CAABDFE7EF5A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Keyboard_Click" ID="{3332CCAC-0C97-495F-8E3C-C8781328FCD7}" ShortID="62081580">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="type1" ID="{90F0AB68-3999-4200-9849-A1BE81C8A5CA}" ShortID="832968888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type1" ID="{882C60F6-2773-4979-BA29-94ABD70D6BDC}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.100896071769193"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="513148320"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type1" ID="{882C60F6-2773-4979-BA29-94ABD70D6BDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type10" ID="{45E0F8FD-1E49-458F-BFB3-9A9A19C9603D}" ShortID="374867393">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type10" ID="{F655DD7E-4BD0-4906-A91E-20BE7FD3D930}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.141154148783977"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="430219897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type10" ID="{F655DD7E-4BD0-4906-A91E-20BE7FD3D930}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type2" ID="{46D44060-2426-4B3D-9D71-A34C22D4A918}" ShortID="714809925">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type2" ID="{112C9B6F-808A-4BD8-8A4F-6FACE90435CD}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0812360216976633"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="291182309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type2" ID="{112C9B6F-808A-4BD8-8A4F-6FACE90435CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type3" ID="{F9C82081-C369-4942-BA3C-EBF85C18950D}" ShortID="958828368">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type3" ID="{491E8761-7C85-45EA-807D-0F428DBF495F}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0975011921793036"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="642473425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type3" ID="{491E8761-7C85-45EA-807D-0F428DBF495F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type4" ID="{0B3B9226-1F58-4196-843B-DB9C793B2EFE}" ShortID="563023481">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type4" ID="{709492F1-547D-4C1D-BCF8-DBF5A7C1AA24}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0906276824034334"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="388417968"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type4" ID="{709492F1-547D-4C1D-BCF8-DBF5A7C1AA24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type5" ID="{25ED9818-B077-476E-B9EE-D54A591777D8}" ShortID="1009655260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type5" ID="{109216EA-A4FA-43B2-9769-94BADED29561}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.137954577968526"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="534099372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type5" ID="{109216EA-A4FA-43B2-9769-94BADED29561}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type6" ID="{EFB0CAD2-8F88-4960-93FC-E141E56796E4}" ShortID="981574084">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type6" ID="{45991992-BE1B-49A9-91AC-53BDFBC0DA37}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.141096655937054"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686596842"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type6" ID="{45991992-BE1B-49A9-91AC-53BDFBC0DA37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type7" ID="{DC9DD9A7-FEA4-4EAF-9E48-44CBE3FED1C3}" ShortID="234571291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type7" ID="{230622E5-87D5-4ACE-9AD8-E5C8E95EBB5B}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.139756497377206"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="847541421"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type7" ID="{230622E5-87D5-4ACE-9AD8-E5C8E95EBB5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type8" ID="{D18E9889-C641-4E0E-B006-C5503291D4AD}" ShortID="680273601">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type8" ID="{8948E33D-C332-422A-8BCD-69FF5327854A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.157331187410587"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="391535517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type8" ID="{8948E33D-C332-422A-8BCD-69FF5327854A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="type9" ID="{ACC513E0-3313-4CFE-8B61-E47D3918EE14}" ShortID="962488233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="type9" ID="{769E2A09-2B10-437D-BFFE-95ED3201CF9C}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.159703624225083"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Keyboard_Click\type9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217262562"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="type9" ID="{769E2A09-2B10-437D-BFFE-95ED3201CF9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="type1" ID="{90F0AB68-3999-4200-9849-A1BE81C8A5CA}"/>
+								<ItemRef Name="type2" ID="{46D44060-2426-4B3D-9D71-A34C22D4A918}"/>
+								<ItemRef Name="type3" ID="{F9C82081-C369-4942-BA3C-EBF85C18950D}"/>
+								<ItemRef Name="type4" ID="{0B3B9226-1F58-4196-843B-DB9C793B2EFE}"/>
+								<ItemRef Name="type5" ID="{25ED9818-B077-476E-B9EE-D54A591777D8}"/>
+								<ItemRef Name="type6" ID="{EFB0CAD2-8F88-4960-93FC-E141E56796E4}"/>
+								<ItemRef Name="type7" ID="{DC9DD9A7-FEA4-4EAF-9E48-44CBE3FED1C3}"/>
+								<ItemRef Name="type8" ID="{D18E9889-C641-4E0E-B006-C5503291D4AD}"/>
+								<ItemRef Name="type9" ID="{ACC513E0-3313-4CFE-8B61-E47D3918EE14}"/>
+								<ItemRef Name="type10" ID="{45E0F8FD-1E49-458F-BFB3-9A9A19C9603D}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

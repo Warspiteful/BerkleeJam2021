@@ -1,6 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3966194980	Ending			\Default Work Unit\Ending	
+
+State	ID	Name	State Group			Notes
+	589883976	Good_Ending	Ending			
+	748895195	None	Ending			
+	2222736396	Bad_Ending	Ending			
+	3321531000	Neutral_Ending	Ending			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	2045198250	MainMenu SFX			\Default Work Unit\Master Audio Bus\MainMenu SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3856960887	In Game SFX			\Default Work Unit\Master Audio Bus\In Game SFX	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
