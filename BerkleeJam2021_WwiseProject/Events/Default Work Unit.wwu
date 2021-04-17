@@ -94,6 +94,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ending" ID="{DE073605-FEBA-4BA9-856F-E13B26A6DA76}">
+					<ChildrenList>
+						<Action Name="" ID="{5B69D0D7-F9F4-4BCE-BB4E-80EDE537135A}" ShortID="557468424"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

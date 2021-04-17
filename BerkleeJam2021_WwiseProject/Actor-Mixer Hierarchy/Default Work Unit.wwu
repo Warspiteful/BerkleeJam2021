@@ -35,6 +35,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_GameStart_Ab2" ID="{C1958CAA-80A0-4D44-A507-98F371CC5E50}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.92312854673343"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_GameStart_Ab2.wav</AudioFile>
 									<MediaIDList>
@@ -132,7 +136,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+							<ObjectRef Name="SFX" ID="{E6BF50F7-46C3-4EFE-B446-D8AD55CF494D}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="In Game SFX" ID="{366FFD30-E2DE-4E30-8474-E7343CEB14D2}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>

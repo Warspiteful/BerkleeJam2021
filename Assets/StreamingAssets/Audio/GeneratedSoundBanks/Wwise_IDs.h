@@ -23,22 +23,21 @@ namespace AK
         static const AkUniqueID TEXT_SEND = 1182229445U;
     } // namespace EVENTS
 
-    namespace STATES
+    namespace SWITCHES
     {
         namespace ENDING
         {
             static const AkUniqueID GROUP = 3966194980U;
 
-            namespace STATE
+            namespace SWITCH
             {
                 static const AkUniqueID BAD_ENDING = 2222736396U;
                 static const AkUniqueID GOOD_ENDING = 589883976U;
                 static const AkUniqueID NEUTRAL_ENDING = 3321531000U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
+            } // namespace SWITCH
         } // namespace ENDING
 
-    } // namespace STATES
+    } // namespace SWITCHES
 
     namespace BANKS
     {

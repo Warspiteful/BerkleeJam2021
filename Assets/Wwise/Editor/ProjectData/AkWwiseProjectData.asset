@@ -38,8 +38,42 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4bdd7cbafa462c438919d9874426bd17
     GuidInternal: 
-    m_lastTime: -8585830085859397193
+    m_lastTime: -8585829799747487333
     List:
+    - name: In Game SFX
+      guid: 30fd6f36dee2304e8474e7343ceb14d2
+      id: 3856960887
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bdd7cbafa462c438919d9874426bd17
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: In Game SFX
+        ObjectType: 2
+        guid: 30fd6f36dee2304e8474e7343ceb14d2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\In Game SFX
+    - name: MainMenu SFX
+      guid: aa7935ba60b0a64984596a49b1a15a43
+      id: 2045198250
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bdd7cbafa462c438919d9874426bd17
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MainMenu SFX
+        ObjectType: 2
+        guid: aa7935ba60b0a64984596a49b1a15a43
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MainMenu SFX
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +88,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: a95bee8ec89977458963e942252107ea
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bdd7cbafa462c438919d9874426bd17
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: a95bee8ec89977458963e942252107ea
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 365ca456afde5a43a1ae3b60e1f0a839
     GuidInternal: 
-    m_lastTime: -8585829974638573968
+    m_lastTime: -8585829805744349050
     List:
     - name: Main
       guid: 67243ca091fe6e49ba01cc785631591a
@@ -94,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0d2766269cc8f545998e9b8ca27d4163
     GuidInternal: 
-    m_lastTime: -8585829976792786938
+    m_lastTime: -8585829799106892638
     List:
     - name: GameStart
       guid: 000690c33537404f9a53263d8d874e58
@@ -111,8 +162,59 @@ MonoBehaviour:
         guid: 000690c33537404f9a53263d8d874e58
       Path: Events\Default Work Unit\GameStart
       maxAttenuation: 0
-      maxDuration: 4.061229
-      minDuration: 4.061229
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu_Click
+      guid: 208eb7ff04be0a41902abb93b00016c2
+      id: 760777789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Menu_Click
+        ObjectType: 3
+        guid: 208eb7ff04be0a41902abb93b00016c2
+      Path: Events\Default Work Unit\Menu_Click
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ending
+      guid: 053607debafea94b856fe13b26a6da76
+      id: 2546948647
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Play_Ending
+        ObjectType: 3
+        guid: 053607debafea94b856fe13b26a6da76
+      Path: Events\Default Work Unit\Play_Ending
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GameTrack
+      guid: 8764742a400a2441baa5bcfed7827c7e
+      id: 3229127073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Play_GameTrack
+        ObjectType: 3
+        guid: 8764742a400a2441baa5bcfed7827c7e
+      Path: Events\Default Work Unit\Play_GameTrack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_MenuMusic
       guid: 4db812da9cda58419b7abbdf56b70614
       id: 2570041344
@@ -127,6 +229,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4db812da9cda58419b7abbdf56b70614
       Path: Events\Default Work Unit\Play_MenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Typing
+      guid: 7172e254e8812e4a938c82d704c6b070
+      id: 210840004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Player_Typing
+        ObjectType: 3
+        guid: 7172e254e8812e4a938c82d704c6b070
+      Path: Events\Default Work Unit\Player_Typing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Typing_Stop
+      guid: 38c7270b2b6a51468ef0126d8c1a0f6d
+      id: 2380210979
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0d2766269cc8f545998e9b8ca27d4163
+      - ElementName: Player_Typing_Stop
+        ObjectType: 3
+        guid: 38c7270b2b6a51468ef0126d8c1a0f6d
+      Path: Events\Default Work Unit\Player_Typing_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -145,8 +281,8 @@ MonoBehaviour:
         guid: fbb9b547a59f42419836e62b7fb25afc
       Path: Events\Default Work Unit\Text_Receive
       maxAttenuation: 0
-      maxDuration: 0.543184
-      minDuration: 0.543184
+      maxDuration: -1
+      minDuration: -1
     - name: Text_Send
       guid: 537989b1808c86439313393a8173ac6c
       id: 1182229445
@@ -162,8 +298,8 @@ MonoBehaviour:
         guid: 537989b1808c86439313393a8173ac6c
       Path: Events\Default Work Unit\Text_Send
       maxAttenuation: 0
-      maxDuration: 0.925516
-      minDuration: 0.925516
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -190,8 +326,90 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 10cfad96fac447439d8bce4b5032e577
     GuidInternal: 
-    m_lastTime: -8585830085845536400
-    List: []
+    m_lastTime: -8585829791285539506
+    List:
+    - name: Ending
+      guid: 5f5097e82a1e5647822a41b0e0a20894
+      id: 3966194980
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 10cfad96fac447439d8bce4b5032e577
+      - ElementName: Ending
+        ObjectType: 9
+        guid: 5f5097e82a1e5647822a41b0e0a20894
+      Path: States\Default Work Unit\Ending
+      values:
+      - name: Bad_Ending
+        guid: b70bd642b98136498601567e8509e9ae
+        id: 2222736396
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 10cfad96fac447439d8bce4b5032e577
+        - ElementName: Ending
+          ObjectType: 9
+          guid: 5f5097e82a1e5647822a41b0e0a20894
+        - ElementName: Bad_Ending
+          ObjectType: 8
+          guid: b70bd642b98136498601567e8509e9ae
+      - name: Good_Ending
+        guid: 6a8d617c5ac6e84db384b8381e3c0d06
+        id: 589883976
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 10cfad96fac447439d8bce4b5032e577
+        - ElementName: Ending
+          ObjectType: 9
+          guid: 5f5097e82a1e5647822a41b0e0a20894
+        - ElementName: Good_Ending
+          ObjectType: 8
+          guid: 6a8d617c5ac6e84db384b8381e3c0d06
+      - name: Neutral_Ending
+        guid: 727e8e3f7516f0449d93c9e44a55326a
+        id: 3321531000
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 10cfad96fac447439d8bce4b5032e577
+        - ElementName: Ending
+          ObjectType: 9
+          guid: 5f5097e82a1e5647822a41b0e0a20894
+        - ElementName: Neutral_Ending
+          ObjectType: 8
+          guid: 727e8e3f7516f0449d93c9e44a55326a
+      - name: None
+        guid: aadad2b3a11aee45b497c518a752b6ac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 10cfad96fac447439d8bce4b5032e577
+        - ElementName: Ending
+          ObjectType: 9
+          guid: 5f5097e82a1e5647822a41b0e0a20894
+        - ElementName: None
+          ObjectType: 8
+          guid: aadad2b3a11aee45b497c518a752b6ac
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -220,7 +438,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585830085842866248
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000
+  ExpandedFileSystemItemIds: 0200000003000000060000001600000017000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
