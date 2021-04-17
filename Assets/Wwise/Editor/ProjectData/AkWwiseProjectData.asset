@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0d2766269cc8f545998e9b8ca27d4163
     GuidInternal: 
-    m_lastTime: -8585829799106892638
+    m_lastTime: -8585829737213998425
     List:
     - name: GameStart
       guid: 000690c33537404f9a53263d8d874e58
@@ -162,8 +162,8 @@ MonoBehaviour:
         guid: 000690c33537404f9a53263d8d874e58
       Path: Events\Default Work Unit\GameStart
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.923129
+      minDuration: 1.923129
     - name: Menu_Click
       guid: 208eb7ff04be0a41902abb93b00016c2
       id: 760777789
@@ -179,8 +179,8 @@ MonoBehaviour:
         guid: 208eb7ff04be0a41902abb93b00016c2
       Path: Events\Default Work Unit\Menu_Click
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.376532
+      minDuration: 1.253396
     - name: Play_Ending
       guid: 053607debafea94b856fe13b26a6da76
       id: 2546948647
@@ -264,8 +264,8 @@ MonoBehaviour:
         guid: 38c7270b2b6a51468ef0126d8c1a0f6d
       Path: Events\Default Work Unit\Player_Typing_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Text_Receive
       guid: fbb9b547a59f42419836e62b7fb25afc
       id: 1590073574
@@ -281,8 +281,8 @@ MonoBehaviour:
         guid: fbb9b547a59f42419836e62b7fb25afc
       Path: Events\Default Work Unit\Text_Receive
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.543184
+      minDuration: 0.543184
     - name: Text_Send
       guid: 537989b1808c86439313393a8173ac6c
       id: 1182229445
@@ -298,8 +298,8 @@ MonoBehaviour:
         guid: 537989b1808c86439313393a8173ac6c
       Path: Events\Default Work Unit\Text_Send
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.925516
+      minDuration: 0.925516
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -326,90 +326,8 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 10cfad96fac447439d8bce4b5032e577
     GuidInternal: 
-    m_lastTime: -8585829791285539506
-    List:
-    - name: Ending
-      guid: 5f5097e82a1e5647822a41b0e0a20894
-      id: 3966194980
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 10cfad96fac447439d8bce4b5032e577
-      - ElementName: Ending
-        ObjectType: 9
-        guid: 5f5097e82a1e5647822a41b0e0a20894
-      Path: States\Default Work Unit\Ending
-      values:
-      - name: Bad_Ending
-        guid: b70bd642b98136498601567e8509e9ae
-        id: 2222736396
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 10cfad96fac447439d8bce4b5032e577
-        - ElementName: Ending
-          ObjectType: 9
-          guid: 5f5097e82a1e5647822a41b0e0a20894
-        - ElementName: Bad_Ending
-          ObjectType: 8
-          guid: b70bd642b98136498601567e8509e9ae
-      - name: Good_Ending
-        guid: 6a8d617c5ac6e84db384b8381e3c0d06
-        id: 589883976
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 10cfad96fac447439d8bce4b5032e577
-        - ElementName: Ending
-          ObjectType: 9
-          guid: 5f5097e82a1e5647822a41b0e0a20894
-        - ElementName: Good_Ending
-          ObjectType: 8
-          guid: 6a8d617c5ac6e84db384b8381e3c0d06
-      - name: Neutral_Ending
-        guid: 727e8e3f7516f0449d93c9e44a55326a
-        id: 3321531000
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 10cfad96fac447439d8bce4b5032e577
-        - ElementName: Ending
-          ObjectType: 9
-          guid: 5f5097e82a1e5647822a41b0e0a20894
-        - ElementName: Neutral_Ending
-          ObjectType: 8
-          guid: 727e8e3f7516f0449d93c9e44a55326a
-      - name: None
-        guid: aadad2b3a11aee45b497c518a752b6ac
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 10cfad96fac447439d8bce4b5032e577
-        - ElementName: Ending
-          ObjectType: 9
-          guid: 5f5097e82a1e5647822a41b0e0a20894
-        - ElementName: None
-          ObjectType: 8
-          guid: aadad2b3a11aee45b497c518a752b6ac
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8585829742205788454
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -422,8 +340,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 70f03ee0d9615a4ca1c1ea2f347b4ac6
     GuidInternal: 
-    m_lastTime: -8585830085844306330
-    List: []
+    m_lastTime: -8585829742205688329
+    List:
+    - name: Ending
+      guid: f6828b45bfe83246a0d1df439628111c
+      id: 3966194980
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 70f03ee0d9615a4ca1c1ea2f347b4ac6
+      - ElementName: Ending
+        ObjectType: 11
+        guid: f6828b45bfe83246a0d1df439628111c
+      Path: Switches\Default Work Unit\Ending
+      values:
+      - name: Bad_Ending
+        guid: 5e9bc472413ad341b3c70248f9185e05
+        id: 2222736396
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 70f03ee0d9615a4ca1c1ea2f347b4ac6
+        - ElementName: Ending
+          ObjectType: 11
+          guid: f6828b45bfe83246a0d1df439628111c
+        - ElementName: Bad_Ending
+          ObjectType: 10
+          guid: 5e9bc472413ad341b3c70248f9185e05
+      - name: Good_Ending
+        guid: c59c5102696f0c4c87082c70276b1dc2
+        id: 589883976
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 70f03ee0d9615a4ca1c1ea2f347b4ac6
+        - ElementName: Ending
+          ObjectType: 11
+          guid: f6828b45bfe83246a0d1df439628111c
+        - ElementName: Good_Ending
+          ObjectType: 10
+          guid: c59c5102696f0c4c87082c70276b1dc2
+      - name: Neutral_Ending
+        guid: 1b7eb6a7b24ffb42b9d732934e03e023
+        id: 3321531000
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 70f03ee0d9615a4ca1c1ea2f347b4ac6
+        - ElementName: Ending
+          ObjectType: 11
+          guid: f6828b45bfe83246a0d1df439628111c
+        - ElementName: Neutral_Ending
+          ObjectType: 10
+          guid: 1b7eb6a7b24ffb42b9d732934e03e023
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -438,7 +422,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585830085842866248
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000060000001600000017000000
+  ExpandedFileSystemItemIds: 010000000200000003000000040000000500000006000000090000000a0000001600000017000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
