@@ -297,6 +297,8 @@ namespace Yarn.Unity {
                 text = line.ID;
             }
 
+            Canvas.ForceUpdateCanvases();
+            scrollViewObject.verticalNormalizedPosition = 0f;
             if (textSpeed > 0.0f) {
                 // Display the line one character at a time
                 var stringBuilder = new StringBuilder ();
@@ -314,16 +316,25 @@ namespace Yarn.Unity {
                         break;
                     }
                     yield return new WaitForSeconds (textSpeed);
+
+                    Canvas.ForceUpdateCanvases();
+                    scrollViewObject.verticalNormalizedPosition = 0f;
                 }
             } else {
                 // Display the entire line immediately if textSpeed <= 0
                 onLineUpdate?.Invoke(text);
             }
+
+        
             chatbox.text += "\n";
+
             Canvas.ForceUpdateCanvases();
             scrollViewObject.verticalNormalizedPosition = 0f;
+           
             // We're now waiting for the player to move on to the next line
             userRequestedNextLine = false;
+
+            
 
             // Indicate to the rest of the game that the line has finished being delivered
             onLineFinishDisplaying?.Invoke();
