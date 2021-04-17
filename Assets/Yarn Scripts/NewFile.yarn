@@ -1,42 +1,60 @@
 title: Start
 tags: 
 colorID: 0
-position: -240,-681
+position: -245,-681
 ---
 PLAYER: Hey, it's been awhile, whats up?
 ALEX: Hi, nm wbu
--> Player: Nm, just hw
--> Player:Nm, just bored
--> Player: A little stressed out tbh, college is a LOT, But i'm doing good!
+-> Nm, just hw
+    Player: Nm, just hw
+-> Nm, just bored
+    Player: Nm, just bored
+-> A little stressed out tbh, college is a LOT, But i'm doing good!
+    Player: A little stressed out tbh, college is a LOT, But i'm doing good!
 ALEX: Nice, thats cool
 PLAYER: Yea haha
--> PLAYER: You listening to any new music lately?
+-> You listening to any new music lately?
+    PLAYER: You listening to any new music lately?
     ALEX: Yeah, I’ve been getting into a lot of _____
-    -> PLAYER: Really? What happened with ____ You were so addicted to them when we were younger!
+    -> Really? What happened with ____ You were so addicted to them when we were younger!
+        PLAYER: Really? What happened with ____ You were so addicted to them when we were younger!
         ALEX: I got bored with them. But um these people are kinda cool.
-    -> PLAYER: Oh! I’ve never heard of them before. Are they any good?
+    -> Oh! I’ve never heard of them before. Are they any good?
+        PLAYER: Oh! I’ve never heard of them before. Are they any good?
         ALEX: Yea, actually! Theyre pretty small like indie and all. So good tho... here’s a track.
-        -> PLAYER: Wow, you’re right. They are good!!! You always did have great taste lol
+        -> Wow, you’re right. They are good!!! You always did have great taste lol
+            PLAYER: Wow, you’re right. They are good!!! You always did have great taste lol
             ALEX: Lmao no I don’t. Weren’t you the one who used to complain I liked ___
-            -> PLAYER: Yea cuz it wasn’t normal. No one likes ____
-            -> PLAYER: And, I stand by my reasoning lol
-            -> PLAYER: They are soo bad.
-        -> PLAYER: Hmm, Im not vibing with them but they’re alright
+            -> Yea cuz it wasn’t normal. No one likes ____
+                PLAYER: Yea cuz it wasn’t normal. No one likes ____
+            -> And, I stand by my reasoning lol
+                PLAYER: And, I stand by my reasoning lol
+            -> They are soo bad.
+                PLAYER: They are soo bad.
+        -> Hmm, Im not vibing with them but they’re alright
+            PLAYER: Hmm, Im not vibing with them but they’re alright
             ALEX: Well, it isnt for everyone ig. You did listen to ___ for godawful while.
-            -> PLAYER: Lowest point of my life, fine
-            -> PLAYER: They were not THAT bad.
-            -> PLAYER: Hey and I still do.
+            -> Lowest point of my life, fine
+                PLAYER: Lowest point of my life, fine
+            -> They were not THAT bad.
+                PLAYER: They were not THAT bad.
+            -> Hey and I still do.
+                PLAYER: Hey and I still do.
             PLAYER: But, remember when you enjoyed ___
             ALEX: Lots of people like them.
             PLAYER: Like who?
             PLAYER: Exactly
             ALEX: Ezra used to like them.
-        -> PLAYER: They're OK.
+        -> They're OK.
+            PLAYER: They're OK.
             ALEX: Ok
-    -> PLAYER: That’s cool.
-        PLAYER: Yea
--> PLAYER: How has college been for you? You’re studying ____ right?
+    -> That’s cool.
+        PLAYER: That’s cool
+        ALEX: Yea
+-> How has college been for you? You’re studying ____ right?
+    PLAYER: How has college been for you? You’re studying ____ right?
     ALEX: Boring. The classes are lame and the people are lamer
--> PLAYER: So did you hear that Eric and Noel got together? Took them long enough amirite lol
+-> So did you hear that Eric and Noel got together? Took them long enough amirite lol
+    PLAYER: So did you hear that Eric and Noel got together? Took them long enough amirite lol
     ALEX: Oh really? Thats funny haha yeah. I didn’t think it would actually happen
 ===
