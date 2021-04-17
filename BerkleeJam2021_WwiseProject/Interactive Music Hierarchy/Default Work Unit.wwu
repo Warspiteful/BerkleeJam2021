@@ -16,12 +16,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Distant_Friends_Menu(Idea 1)_75bpm" ID="{2870A412-7177-432D-88EC-73DC1768B340}" ShortID="228355917">
+						<MusicSegment Name="Distant Friends Main Menu FINAL 72bpm" ID="{4F0FC202-5493-4622-B4C6-057CF34FFAB7}" ShortID="716489832">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="80065.306122449"/>
+								<Property Name="EndPosition" Type="Real64" Value="83200"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -34,23 +34,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{58546F39-9DED-43ED-80A1-E83E1A411620}" ShortID="653004110">
+								<MusicTrack Name="Distant Friends Main Menu FINAL 72bpm" ID="{D5DDA7C0-375E-4253-8AD9-BD65D58AB3C3}" ShortID="1026271147">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{B0951DDD-B043-49D4-9F8F-8104F76C2676}">
+										<AudioFileSource Name="Distant Friends Main Menu FINAL 72bpm" ID="{774027B7-95DA-4E95-9674-9A3856F57623}">
 											<Language>SFX</Language>
-											<AudioFile>Distant_Friends_Menu(Idea 1)_72bpm.wav</AudioFile>
+											<AudioFile>Distant Friends Main Menu FINAL 72bpm.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="985246591"/>
+												<MediaID ID="916120306"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{F2B6BB1B-D519-46B8-8050-2998408FB1D1}">
+										<MusicTransition Name="Root" ID="{8D76A586-BECC-45D5-B444-671DF6AD5840}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -61,20 +61,21 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{8DDF53AB-7F7A-444A-9D4A-B168E847AE01}">
+													<MusicTrackSequence Name="" ID="{BDF094F2-B68F-4C07-9C26-5E080B0EE126}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{AFF3D799-E6C7-45A1-9AC9-2E20D61027B8}">
+																		<MusicClip Name="Distant Friends Main Menu FINAL 72bpm" ID="{4A0B5336-EDD0-4CCD-941C-677C22559CBD}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="25652.6664363399"/>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="544.661946411219"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25600"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Distant_Friends_Menu(Idea 1)_72bpm" ID="{B0951DDD-B043-49D4-9F8F-8104F76C2676}"/>
+																			<AudioSourceRef Name="Distant Friends Main Menu FINAL 72bpm" ID="{774027B7-95DA-4E95-9674-9A3856F57623}"/>
 																			<PropertyCurveList>
 																				<PropertyCurve PropertyName="Highpass">
-																					<Curve Name="" ID="{5DDF11B3-B03E-4A17-8474-192BE5B974D9}">
+																					<Curve Name="" ID="{CB4ACB63-6623-483F-9DDF-1B7795E8FE08}">
 																						<PropertyList>
 																							<Property Name="Flags" Type="int32" Value="1"/>
 																						</PropertyList>
@@ -85,7 +86,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>25.65267</XPos>
+																								<XPos>25.6</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -93,7 +94,7 @@
 																					</Curve>
 																				</PropertyCurve>
 																				<PropertyCurve PropertyName="Lowpass">
-																					<Curve Name="" ID="{63537267-B14F-49A7-B020-531685B0F504}">
+																					<Curve Name="" ID="{72F6A3CC-6A7D-4C3B-ABBA-1123D0A4AD6B}">
 																						<PropertyList>
 																							<Property Name="Flags" Type="int32" Value="1"/>
 																						</PropertyList>
@@ -104,7 +105,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>25.65267</XPos>
+																								<XPos>25.6</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -112,7 +113,7 @@
 																					</Curve>
 																				</PropertyCurve>
 																				<PropertyCurve PropertyName="Volume">
-																					<Curve Name="" ID="{3FB6B4FD-8B0C-462B-A67E-1269F11EFAC2}">
+																					<Curve Name="" ID="{58CA02ED-58F7-4268-AC1D-61E7D8D25F32}">
 																						<PropertyList>
 																							<Property Name="Flags" Type="int32" Value="3"/>
 																						</PropertyList>
@@ -123,7 +124,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>25.65267</XPos>
+																								<XPos>25.6</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -147,12 +148,12 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{F9750AF6-4C1C-42E5-9B97-4E7856141909}"/>
+											<MusicCue Name="Entry Cue" ID="{D7545E66-2B33-45F3-85CF-A326FC36E192}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{AD3D1FFC-D128-400B-B882-BFB9D5507E82}">
+											<MusicCue Name="Exit Cue" ID="{252B13E6-0B57-439D-B2C7-CE4BA1B1FBCF}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
 													<Property Name="TimeMs" Type="Real64" Value="25600"/>
@@ -184,12 +185,11 @@
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{5A0B3DB4-651C-45A1-B759-C7F5690FA197}" ShortID="539085224">
+								<MusicPlaylistItem Name="" ID="{98936E94-DE55-4D94-87E3-3D9B72F151EF}" ShortID="725699832">
 									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Distant_Friends_Menu(Idea 1)_75bpm" ID="{2870A412-7177-432D-88EC-73DC1768B340}"/>
+									<SegmentRef Name="Distant Friends Main Menu FINAL 72bpm" ID="{4F0FC202-5493-4622-B4C6-057CF34FFAB7}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
@@ -296,6 +296,95 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicSegment Name="Departure Ingame theme 2 80bpm" ID="{FDFBAB32-A2FA-4E92-87D9-4AB1590CAE08}" ShortID="227699683">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="48000"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76BEB3B2-523B-4B44-9772-7BF11303D477}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Departure Ingame theme 2 80bpm" ID="{B9D87E03-A269-4D53-A96E-B812BC1BC9FF}" ShortID="518862836">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA7CDD4B-46FA-432C-8919-D9874426BD17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Departure Ingame theme 2 80bpm" ID="{3854D155-9F8C-4256-8DA3-9EBBA179AABF}">
+											<Language>SFX</Language>
+											<AudioFile>Departure Ingame theme 2 80bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="452490973"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6F8E67BD-9EE3-4433-8A40-4EC22345EEED}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C6011D10-FCA9-4EED-B034-FF8EAA977C7C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Departure Ingame theme 2 80bpm" ID="{97D07768-81A8-4AAD-BE22-401E39EF0903}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="471.655328798188"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Departure Ingame theme 2 80bpm" ID="{3854D155-9F8C-4256-8DA3-9EBBA179AABF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D1BA76C6-A66A-421F-8D88-6B1B2212A5B6}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{AFDFAD77-44AA-487D-ADC2-4D31722E6F51}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="48000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{C404F369-DF30-470E-A703-301D46FB880C}">
@@ -325,6 +414,12 @@
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="Ingametheme1_80bpm" ID="{240F3DC6-D27B-4399-AF6A-17291EC22F73}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{611F04C8-5883-40E7-B69C-7417A2CA71C8}" ShortID="878782109">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Departure Ingame theme 2 80bpm" ID="{FDFBAB32-A2FA-4E92-87D9-4AB1590CAE08}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

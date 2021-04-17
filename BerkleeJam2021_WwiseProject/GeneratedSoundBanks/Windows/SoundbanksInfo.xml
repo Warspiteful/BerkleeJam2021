@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1999806139">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2092706392">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -43,6 +43,10 @@
 				</Event>
 				<Event Id="3229127073" Name="Play_GameTrack" ObjectPath="\Events\Default Work Unit\Play_GameTrack" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="452490973" Language="SFX">
+							<ShortName>Departure Ingame theme 2 80bpm.wav</ShortName>
+							<Path>SFX\Departure Ingame theme 2 80bpm_D79FB2B7.wem</Path>
+						</File>
 						<File Id="730079061" Language="SFX">
 							<ShortName>Ingametheme1_80bpm.wav</ShortName>
 							<Path>SFX\Ingametheme1_80bpm_D79FB2B7.wem</Path>
@@ -51,9 +55,9 @@
 				</Event>
 				<Event Id="2570041344" Name="Play_MenuMusic" ObjectPath="\Events\Default Work Unit\Play_MenuMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="985246591" Language="SFX">
-							<ShortName>Distant_Friends_Menu(Idea 1)_72bpm.wav</ShortName>
-							<Path>SFX\Distant_Friends_Menu(Idea 1)_72bpm_D79FB2B7.wem</Path>
+						<File Id="916120306" Language="SFX">
+							<ShortName>Distant Friends Main Menu FINAL 72bpm.wav</ShortName>
+							<Path>SFX\Distant Friends Main Menu FINAL 72bpm_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

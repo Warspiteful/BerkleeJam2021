@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6D800696-05E9-4ED5-A8B2-FDBFAE1E7088}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Shirley\Downloads\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Shirley\Music\GameJam Sounds\Music\"/>
 				<Property Name="Event Action List\{0B27C738-6A2B-4651-8EF0-126D8C1A0F6D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2A746487-0A40-4124-BAA5-BCFED7827C7E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{47B5B9FB-9FA5-4142-9836-E62B7FB25AFC}\x64_Expand States" Type="string" Value=""/>
@@ -29,14 +29,17 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="CGrDtNYEXUOEKEV0fmy5oce2tk9vuRtHgOik2jFo7kI="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="ZyQ8oJH+bkm6Acx4VjFZGg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="i24XYQ1HH0e7jvFyPK/v/wHahQT/////U0xo3qpXW0OTZGxGfhAUCAHahQT/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="i24XYQ1HH0e7jvFyPK/v/wHaXsP/////U0xo3qpXW0OTZGxGfhAUCAHaXsP/////"/>
 				<Property Name="Interactive Music\x64_{240F3DC6-D27B-4399-AF6A-17291EC22F73} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkDtARhdddNFF/z8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{2870A412-7177-432D-88EC-73DC1768B340} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPx/K7JUlhjBARhdddNFF/z8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{4F0FC202-5493-4622-B4C6-057CF34FFAB7} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/ytdPuKzS9Aa9+w9g1r/z8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{FAAD0E5D-5C9B-4AD4-B623-ED0729B5BBC3} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAArHRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{FDFBAB32-A2FA-4E92-87D9-4AB1590CAE08} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkDtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -69,7 +72,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ80vdfLr6RixDiRnZh0QmvRc="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Uak1hU3thUSZqr7r4LWso9hCxTDNUZlEloJ+7oBvtk+sHhNWVcU6SKKl5yz82PIj5prVWGhqbUiwg6UbnhEb0k7Pue0Kpf1Kv0qRJMcVphQKAg1B+2cAS5mGCDt1xSjR"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="2ELFMM1RmUSWgn7ugG+2Tw2UMHw9wK5HivQ+BU1xX16sHhNWVcU6SKKl5yz82PIj"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="DSdmJpzI9UWZjpuMon1BYw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="9oKLRb/oMkag0d9DligRHHDwPuDZYVpMocHqLzR7SsY="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="EM+tlvrER0Odi85LUDLldw=="/>
