@@ -297,6 +297,10 @@ namespace Yarn.Unity {
                 text = line.ID;
             }
 
+            string speakerName = "";
+            string lineTextDisplay = text;
+         
+
             Canvas.ForceUpdateCanvases();
             scrollViewObject.verticalNormalizedPosition = 0f;
             if (textSpeed > 0.0f) {
@@ -322,19 +326,23 @@ namespace Yarn.Unity {
                 }
             } else {
                 // Display the entire line immediately if textSpeed <= 0
+                                    chatbox.text += text;
+                                      Canvas.ForceUpdateCanvases();
+                    scrollViewObject.verticalNormalizedPosition = 0f;
+                       StartCoroutine(waiter());
+
+
                 onLineUpdate?.Invoke(text);
             }
 
         
             chatbox.text += "\n";
 
-            Canvas.ForceUpdateCanvases();
-            scrollViewObject.verticalNormalizedPosition = 0f;
            
             // We're now waiting for the player to move on to the next line
             userRequestedNextLine = false;
 
-            
+            StartCoroutine(waiter());
 
             // Indicate to the rest of the game that the line has finished being delivered
             onLineFinishDisplaying?.Invoke();
@@ -352,6 +360,7 @@ namespace Yarn.Unity {
             onComplete();
 
         }
+
 
         /// Runs a set of options.
         /// <inheritdoc/>
