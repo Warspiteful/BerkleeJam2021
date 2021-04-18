@@ -8,9 +8,23 @@ public class SettingMenu : MonoBehaviour
     public AudioMixer audioMixer;   
 
     //Adapts volume level to slider value
-    public void SetVolume (float volume)
+    public void SetMasterVolume (float volume)
     {
-        audioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20 );
+        audioMixer.SetFloat("Volume", volume);
         Debug.Log(volume);
     }
+
+public void SetSFXVolume (float volume)
+    {
+        audioMixer.SetFloat("SFXVolume", volume);
+        Debug.Log(volume);
+    }
+
+public void SetMusicVolume (float volume)
+    {
+        audioMixer.SetFloat("MusicVolume", volume);
+        Debug.Log(volume);
+    }
+
+
 }
